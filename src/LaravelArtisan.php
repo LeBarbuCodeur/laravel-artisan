@@ -30,7 +30,6 @@ class LaravelArtisan
         ];
     }
 
-    public function hello() { return 'hello'; }
     public function getCommandsList(): array
     {
         return $this->commands;
