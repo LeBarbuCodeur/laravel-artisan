@@ -1,0 +1,54 @@
+{
+    "name": "lebarbucodeur/laravel-artisan",
+    "description": "Some artisan commands into view for Laravel",
+    "keywords": [
+        "laravel",
+        "artisan",
+        "view"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Le Barbu Codeur",
+            "email": "seb@lebarbucodeur.fr",
+            "homepage": "https://www.lebarbucodeur.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "mockery/mockery": ">=0.9",
+        "orchestra/testbench": "^7.19.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeBarbuCodeur\\LaravelArtisan\\": "src/"
+        },
+        "files": [
+            "src/LaravelArtisanHelpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LeBarbuCodeur\\LaravelArtisan\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LeBarbuCodeur\\LaravelArtisan\\LaravelArtisanServiceProvider"
+            ],
+            "aliases": {
+                "LaravelArtisan": "LeBarbuCodeur\\LaravelArtisan\\LaravelArtisanFacade"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
+    }
+}
