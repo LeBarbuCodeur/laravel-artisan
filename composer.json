@@ -27,10 +27,7 @@
     "autoload": {
         "psr-4": {
             "LeBarbuCodeur\\LaravelArtisan\\": "src/"
-        },
-        "files": [
-            "src/LaravelArtisanHelpers.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
