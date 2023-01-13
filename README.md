@@ -3,7 +3,6 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lebarbucodeur/laravel-artisan.svg?style=flat-square)](https://packagist.org/packages/lebarbucodeur/laravel-artisan)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/lebarbucodeur/laravel-artisan.svg?style=flat-square)](https://packagist.org/packages/lebarbucodeur/laravel-artisan)
-[![Build Status](https://github.com/lebarbucodeur/laravel-artisan/workflows/build/badge.svg)](https://github.com/lebarbucodeur/laravel-artisan/actions)
 
 `lebarbucodeur/laravel-artisan` is a laravel package providing some Artisan commands in a view. Cool if you put a Laravel application on a mutualised server like OVH.
 
