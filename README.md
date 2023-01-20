@@ -6,6 +6,10 @@
 
 `lebarbucodeur/laravel-artisan` is a Laravel package providing some Artisan commands in a view. Very useful if you put a Laravel application on a mutualised server like OVH.
 
+## Available commands
+
+- php artisan key:generate
+
 ## Requirements
 
 - Laravel 9.x
