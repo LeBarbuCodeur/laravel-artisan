@@ -4,6 +4,7 @@ All Notable changes to `laravel-artisan` will be documented in this file.
 
 ## 1.0.1 - 2023/01/20
 
+- [Add key:generate command](https://github.com/LeBarbuCodeur/laravel-artisan/issues/6)
 - [Add Github templates](https://github.com/LeBarbuCodeur/laravel-artisan/issues/4)
 - [Improve readme file with configuration, contributing and credits parts added](https://github.com/LeBarbuCodeur/laravel-artisan/issues/1)
 
