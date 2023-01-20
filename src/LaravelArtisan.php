@@ -13,6 +13,9 @@ class LaravelArtisan
     public function __construct()
     {
         $this->commands = [
+            'key' => [
+                'key-generate' => ['cmd' => 'key:generate', 'description' => __('laravel-artisan::description.key_generate')],
+            ],
             'maintenance' => [
                 'down' => ['cmd' => 'down', 'description' => __('laravel-artisan::description.down')],
                 'optimize' => ['cmd' => 'optimize', 'description' => __('laravel-artisan::description.optimize')],

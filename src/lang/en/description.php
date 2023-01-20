@@ -2,6 +2,7 @@
 
 return [
     'down' => 'Put the application into maintenance / demo mode.',
+    'key_generate' => 'Set the application key.',
     'migrate' => 'Apply migrations.',
     'migrate_rollback' => 'Rollback the last database migration.',
     'migrate_status' => 'Show the status of each migration.',
